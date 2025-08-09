@@ -22,11 +22,11 @@ function calc(e) {
     let money = Number(document.getElementById("money1").value);
 
 
-    res1 = money * 0.075;// 0.075 = 7.5% الإيجار
-    res2 = money * 0.30;// 0.30 = 30% بضاعة
+    res1 = money * 0.135;// 0.135 = 13.5% الإيجار
+    res2 = money * 0.45;// 0.45 = 45% بضاعة
     res3 = money * 0.025;// 0.025 = 2.5% زكاه
-    res4 = money * 0.50;// 0.50 = 50% ربح
-    res5 = money * 0.10;// 0.10 = 10% مرتابات
+    res4 = money * 0.32;// 0.32 = 32% ربح
+    res5 = money * 0.07;// 0.07 = 7% مرتابات
     //how to make the him print the float result with 2 decimal places 
       
     document.getElementById("result").innerHTML = "الإيجار : " + res1.toFixed(2) + " EGP";//! toFixed is used to round the number 2 decimals only for the float numbers
