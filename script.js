@@ -26,7 +26,7 @@ function calc(e) {
     res4 = money * 0.4;
     //how to make the him print the float result with 2 decimal places 
       
-    document.getElementById("result").innerHTML = "الإيجار : " + res1.toFixed(2) + " EGP";
+    document.getElementById("result").innerHTML = "الإيجار : " + res1.toFixed(2) + " EGP";//! toFixed is used to round the number 2 decimals only for the float numbers
     document.getElementById("result2").innerHTML = "البضاعة : " + res2.toFixed(2) + " EGP";
     document.getElementById("result3").innerHTML = "الزكاة : " + res3.toFixed(2) + " EGP";
     document.getElementById("result4").innerHTML = "الربح : " + res4.toFixed(2) + " EGP"; 
