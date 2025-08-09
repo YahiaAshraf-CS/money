@@ -20,10 +20,10 @@ function calc(e) {
     let money = Number(document.getElementById("money1").value);
 
 
-    res1 = money * 0.275;
+    res1 = money * 0.25;
     res2 = money * 0.3;
     res3 = money * 0.025;
-    res4 = money * 0.4;
+    res4 = money * 0.425;
     //how to make the him print the float result with 2 decimal places 
       
     document.getElementById("result").innerHTML = "الإيجار : " + res1.toFixed(2) + " EGP";//! toFixed is used to round the number 2 decimals only for the float numbers
